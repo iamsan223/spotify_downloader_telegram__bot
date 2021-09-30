@@ -63,18 +63,18 @@ def START(msg, chat_id):
         downloader(msg, chat_id, 'AR')
 
     elif msg == "/start":
-        bot.sendMessage(chat_id,"Hi \nsend me spotify link and I'll give you music\nor use /single or /album or /artist")
+        bot.sendMessage(chat_id,"Hi \nsend me spotify link and I'll give you music\nor use /single or /album or /artist I was Made by @KevinDaGoat ")
 
 
     elif msg == "/album":
         sort[chat_id] = 'album'
         bot.sendMessage(chat_id,
-                        'send name and name of artist like this: \nName album\nor for better search use this:\nName album - Name artist')
+                        'Send Name And name of artist like this: \nName album\nor for better search use this:\nName album - Name artist')
 
     elif msg == '/single':
         sort[chat_id] = 'single'
         bot.sendMessage(chat_id,
-                        'send name and name of artist like this: \nName song\nor for better search use this:\nName song - Name artist')
+                        'Send Me The Name Of The Song And The Name Of The Artist: \nName song\nor for better search use this:\nName song - Name artist I Was Made By @KevinDaGoat ')
     elif msg == '/artist':
         sort[chat_id] = 'artist'
         bot.sendMessage(chat_id, 'send name and name of artist like this: \nName artist')
